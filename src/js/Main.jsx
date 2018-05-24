@@ -6,6 +6,7 @@ import Gallery from "./sections/Gallery";
 import Subscribe from "./sections/Subscribe";
 import Blog from "./sections/Blog";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 class Main extends Component {
   render() {
@@ -18,6 +19,7 @@ class Main extends Component {
         <Subscribe />
         <Blog />
         <Contact />
+        <Footer />
       </div>
     );
   }
