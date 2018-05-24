@@ -1,34 +1,13 @@
 import React, { Component } from "react";
 import scroll from "../../icons/scroll.png";
+import Nav from "../components/Nav";
 
 class Header extends Component {
   render() {
     return (
       <div className="row header">
         <div className="container">
-          <nav className="navbar py-5">
-            <a href="#" className="navbar-brand">
-              Cahee
-            </a>
-            <a href="#" className="navbar-link">
-              HOME
-            </a>
-            <a href="#" className="navbar-link">
-              ABOUT
-            </a>
-            <a href="#" className="navbar-link">
-              SERVICES
-            </a>
-            <a href="#" className="navbar-link">
-              GALLERY
-            </a>
-            <a href="#" className="navbar-link">
-              BLOG
-            </a>
-            <a href="#" className="navbar-link">
-              CONTACT
-            </a>
-          </nav>
+          <Nav />
           <div className="row mt-5">
             <div className="col-3">
               <h1>Fresh Life</h1>
