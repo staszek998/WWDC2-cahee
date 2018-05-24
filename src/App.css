@@ -6,3 +6,12 @@
 
 nav a {
   color: black; }
+
+.about-us__image {
+  background-image: url("./images/about.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.about-us {
+  background-color: #00c3c3; }
