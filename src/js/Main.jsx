@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./sections/Header";
 import About from "./sections/About";
+import Services from "./sections/Services";
 
 class Main extends Component {
   render() {
@@ -8,6 +9,7 @@ class Main extends Component {
       <div className="container-fluid">
         <Header />
         <About />
+        <Services />
       </div>
     );
   }

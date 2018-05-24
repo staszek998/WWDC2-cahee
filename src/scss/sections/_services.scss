@@ -1,0 +1,18 @@
+.services__image {
+  background-image: url("./images/services.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.services {
+  background-color: #70beff;
+}
+
+.service__item {
+  height: 80px;
+
+  img {
+    height: 50%;
+  }
+}

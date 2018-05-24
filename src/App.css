@@ -15,3 +15,17 @@ nav a {
 
 .about-us {
   background-color: #00c3c3; }
+
+.services__image {
+  background-image: url("./images/services.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.services {
+  background-color: #70beff; }
+
+.service__item {
+  height: 80px; }
+  .service__item img {
+    height: 50%; }
