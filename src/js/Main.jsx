@@ -3,6 +3,7 @@ import Header from "./sections/Header";
 import About from "./sections/About";
 import Services from "./sections/Services";
 import Gallery from "./sections/Gallery";
+import Subscribe from "./sections/Subscribe";
 
 class Main extends Component {
   render() {
@@ -12,6 +13,7 @@ class Main extends Component {
         <About />
         <Services />
         <Gallery />
+        <Subscribe />
       </div>
     );
   }
