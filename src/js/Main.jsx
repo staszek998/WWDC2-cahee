@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./sections/Header";
 import About from "./sections/About";
 import Services from "./sections/Services";
+import Gallery from "./sections/Gallery";
 
 class Main extends Component {
   render() {
@@ -10,6 +11,7 @@ class Main extends Component {
         <Header />
         <About />
         <Services />
+        <Gallery />
       </div>
     );
   }

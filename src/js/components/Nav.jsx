@@ -8,34 +8,34 @@ class Nav extends Component {
           Cahee
         </a>
 
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">
+        <ul className="nav">
+          <li className="nav-item">
+            <a className="nav-link active" href="#">
               HOME
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               ABOUT
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               SERVICES
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               GALLERY
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               BLOG
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
               CONTACT
             </a>
           </li>
