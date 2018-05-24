@@ -5,6 +5,7 @@ import Services from "./sections/Services";
 import Gallery from "./sections/Gallery";
 import Subscribe from "./sections/Subscribe";
 import Blog from "./sections/Blog";
+import Contact from "./sections/Contact";
 
 class Main extends Component {
   render() {
@@ -16,6 +17,7 @@ class Main extends Component {
         <Gallery />
         <Subscribe />
         <Blog />
+        <Contact />
       </div>
     );
   }

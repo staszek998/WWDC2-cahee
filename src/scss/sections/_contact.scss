@@ -1,0 +1,16 @@
+.contact {
+  background-image: url("./images/contact.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  input,
+  textarea {
+    background-color: rgba($color: #00c3c3, $alpha: 0.5) !important;
+    color: white;
+
+    &::placeholder {
+      color: white;
+    }
+  }
+}
