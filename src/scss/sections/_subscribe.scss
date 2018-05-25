@@ -5,8 +5,13 @@
   background-repeat: no-repeat;
   background-position: 70% 50%;
   min-height: 500px;
+
+  .btn {
+    background-color: #95b92b;
+    width: 170px;
+  }
 }
 
 .form-control {
-    width: 100% !important; 
+  width: 100% !important;
 }

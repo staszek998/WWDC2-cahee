@@ -25,13 +25,13 @@ class Subscribe extends Component {
                       <input
                         type="email"
                         placeholder="Enter your e-mail address"
-                        className="form-control"
+                        className="form-control rounded-0"
                       />
                     </div>
                     <div className="col-4">
                       <input
                         type="submit"
-                        className="btn btn-default"
+                        className="btn btn-default text-white rounded-0 shadow"
                         value="SUBSCRIBE"
                       />
                     </div>

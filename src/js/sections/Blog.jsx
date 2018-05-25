@@ -46,7 +46,9 @@ class Blog extends Component {
             />
           </div>
           <div className="row d-flex justify-content-center">
-            <button className="btn btn-default">VIEW MORE</button>
+            <button className="btn btn-default text-white shadow rounded-0">
+              VIEW MORE
+            </button>
           </div>
         </div>
       </div>

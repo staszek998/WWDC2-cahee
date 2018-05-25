@@ -6,7 +6,7 @@ class ServiceItem extends Component {
       <div className="row justify-content-center">
         <div className="col-8">
           <div className="row service__item my-1 py-2 shadow bg-white">
-            <div className="col-9 align-self-center">
+            <div className="col-9 align-self-center text-center">
               <span  >{this.props.text}</span>
             </div>
             <div className="col-3 align-self-center">

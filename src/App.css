@@ -39,6 +39,9 @@ strong {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100vw; }
+  .header button {
+    background-color: #ff5f33;
+    width: 200px; }
 
 nav a {
   color: black;
@@ -76,6 +79,9 @@ nav a {
 
 .gallery {
   background-color: #ffe92f; }
+  .gallery button {
+    background-color: #5585a1;
+    width: 200px; }
 
 .subscribe {
   background-color: white;
@@ -84,12 +90,18 @@ nav a {
   background-repeat: no-repeat;
   background-position: 70% 50%;
   min-height: 500px; }
+  .subscribe .btn {
+    background-color: #95b92b;
+    width: 170px; }
 
 .form-control {
   width: 100% !important; }
 
 .blog {
   background-color: #b07bf7; }
+  .blog button {
+    background-color: #f72a3b;
+    width: 200px; }
 
 .blog-post {
   height: 300px; }
@@ -134,6 +146,8 @@ nav a {
     .contact input::placeholder,
     .contact textarea::placeholder {
       color: white; }
+  .contact .btn {
+    width: 170px; }
 
 .footer {
   background-color: #252525; }

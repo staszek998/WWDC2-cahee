@@ -25,7 +25,9 @@ class Header extends Component {
           </div>
           <div className="row mb-5">
             <div className="col-2">
-              <button className="btn btn-default">CLICK ME</button>
+              <button className="btn btn-default rounded-0 text-white shadow">
+                CLICK ME
+              </button>
             </div>
           </div>
           <div className="row my-5 justify-content-center">

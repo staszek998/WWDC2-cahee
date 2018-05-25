@@ -53,7 +53,9 @@ class Gallery extends Component {
             </div>
           </div>
           <div className="row d-flex justify-content-center mt-5">
-            <button className="btn btn-default">CLICK ME</button>
+            <button className="btn btn-default rounded-0 shadow text-white">
+              CLICK ME
+            </button>
           </div>
         </div>
       </div>
