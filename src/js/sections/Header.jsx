@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="container">
           <Nav />
           <div className="row mt-5">
-            <div className="col-3">
+            <div className="col-4">
               <h1>Fresh Life</h1>
             </div>
           </div>

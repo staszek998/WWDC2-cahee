@@ -4,7 +4,7 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar py-5">
-        <a href="#" className="navbar-brand">
+        <a href="#" className="navbar-brand logo">
           Cahee
         </a>
 

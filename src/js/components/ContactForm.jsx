@@ -27,7 +27,7 @@ class ContactForm extends Component {
         <input
           type="submit"
           className="form-contro btn btn-default rounded-0 mb-5 border-0"
-          value="Send"
+          value="SEND"
         />
       </form>
     );

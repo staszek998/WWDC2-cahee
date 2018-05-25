@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("./fonts/raleway/Raleway-Regular.ttf"); }
+
+@font-face {
+  font-family: "Raleway Thin";
+  src: url("./fonts/raleway/Raleway-Thin.ttf"); }
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("./fonts/raleway/Raleway-Bold.ttf"); }
+
+@font-face {
+  font-family: "Raleway Black";
+  src: url("./fonts/raleway/Raleway-Black.ttf"); }
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("./fonts/pacifico/Pacifico.ttf"); }
+
+h1,
+h2 {
+  font-family: "Raleway Black";
+  font-size: 60px; }
+
+p,
+button,
+input,
+textarea {
+  font-family: "Raleway Regular"; }
+
+span,
+h3,
+strong {
+  font-family: "Raleway Bold"; }
+
 .header {
   background-image: url("./images/header.png");
   background-position: center;
@@ -5,7 +41,15 @@
   background-size: 100vw; }
 
 nav a {
-  color: black; }
+  color: black;
+  font-family: "Raleway"; }
+
+.logo,
+.logo-small {
+  font-family: "Pacifico"; }
+
+.navbar-brand {
+  font-size: 50px; }
 
 .about-us__image {
   background-image: url("./images/about.png");
@@ -93,3 +137,12 @@ nav a {
 
 .footer {
   background-color: #252525; }
+  .footer span {
+    font-family: "Raleway Thin"; }
+
+.logo-small {
+  font-size: 25px; }
+
+span.red {
+  color: #fe0051;
+  font-family: "Raleway Bold"; }

@@ -12,11 +12,11 @@ class Footer extends Component {
               </span>
             </div>
             <div className="col-2">
-              <h2 className="text-white">Cahee</h2>
+              <h2 className="text-white logo-small">Cahee</h2>
             </div>
             <div className="col-4">
               <span className="text-white">
-                Made with love by Stanislaw Gregor
+                Made with <span className="red">love</span> by Stanislaw Gregor
               </span>
             </div>
           </div>
