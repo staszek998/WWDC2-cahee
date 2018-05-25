@@ -8,6 +8,7 @@ class Header extends Component {
       <div className="row header">
         <div className="container">
           <Nav />
+          <dvic className="row compensator" />
           <div className="row mt-5">
             <div className="col-4">
               <h1>Fresh Life</h1>
@@ -25,13 +26,13 @@ class Header extends Component {
           </div>
           <div className="row mb-5">
             <div className="col-2">
-              <button className="btn btn-default rounded-0 text-white shadow">
+              <button className="btn btn-default rounded-0 text-white shadow mb-5">
                 CLICK ME
               </button>
             </div>
           </div>
-          <div className="row my-5 justify-content-center">
-            <img src={scroll} alt="Scroll icon" />
+          <div className="row my-5 justify-content-center my-5">
+            <img src={scroll} alt="Scroll icon" className="my-5" />
           </div>
         </div>
       </div>

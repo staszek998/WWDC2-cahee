@@ -8,14 +8,14 @@ class About extends Component {
           <div className="row">
             <div className="col-6 about-us__image" />
             <div className="col-6 my-5">
-              <h1 className="text-white">About Us</h1>
-              <p className="text-white">
+              <h1 className="text-white mt-5">About Us</h1>
+              <p className="text-white mt-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
                 aliquid sequi ipsa laboriosam deleniti obcaecati officia ratione
                 odit? Rerum cupiditate enim voluptatem sint placeat praesentium
                 laborum neque dolor suscipit ab.
               </p>
-              <p className="text-white">
+              <p className="text-white mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
                 tenetur vitae autem illum recusandae unde laboriosam neque cum
                 iste odit delectus odio, quae earum id ex ad explicabo sunt vel?

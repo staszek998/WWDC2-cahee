@@ -43,9 +43,18 @@ strong {
     background-color: #ff5f33;
     width: 200px; }
 
-nav a {
-  color: black;
-  font-family: "Raleway"; }
+nav {
+  background: white;
+  background: -moz-linear-gradient(top, white 0%, rgba(246, 246, 246, 0.53) 47%, rgba(237, 237, 237, 0) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(47%, rgba(246, 246, 246, 0.53)), color-stop(100%, rgba(237, 237, 237, 0)));
+  background: -webkit-linear-gradient(top, white 0%, rgba(246, 246, 246, 0.53) 47%, rgba(237, 237, 237, 0) 100%);
+  background: -o-linear-gradient(top, white 0%, rgba(246, 246, 246, 0.53) 47%, rgba(237, 237, 237, 0) 100%);
+  background: -ms-linear-gradient(top, white 0%, rgba(246, 246, 246, 0.53) 47%, rgba(237, 237, 237, 0) 100%);
+  background: linear-gradient(to bottom, white 0%, rgba(246, 246, 246, 0.53) 47%, rgba(237, 237, 237, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 ); }
+  nav a {
+    color: black;
+    font-family: "Raleway"; }
 
 .logo,
 .logo-small {
@@ -53,6 +62,9 @@ nav a {
 
 .navbar-brand {
   font-size: 50px; }
+
+.compensator {
+  height: 180px; }
 
 .about-us__image {
   background-image: url("./images/about.png");
