@@ -8,7 +8,6 @@ class Header extends Component {
       <div className="row header">
         <div className="container">
           <Nav />
-          <dvic className="row compensator" />
           <div className="row mt-5">
             <div className="col-4">
               <h1>Fresh Life</h1>
